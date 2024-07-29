@@ -2,4 +2,4 @@
 demo
 test
 auto build
-5
+6
