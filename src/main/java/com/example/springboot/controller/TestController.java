@@ -14,7 +14,7 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 public class TestController {
 
-    private static final String INTERNAL_IP = "192.168.0.31";
+    private static final String INTERNAL_IP = "10.137.175.70";
     private static final String DOMAIN_NAME = "yb-test-01.run.app";
 
     @GetMapping("/")
