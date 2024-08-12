@@ -15,7 +15,7 @@ import org.springframework.web.client.RestTemplate;
 public class TestController {
 
     private static final String INTERNAL_IP = "192.168.0.48:9376";
-    private static final String DOMAIN_NAME = "6230cdf35e904b00907b50f01c91c6a9.internal.nebulab.app:3306";
+    private static final String DOMAIN_NAME = "948367d0d2cb4fbdba66de1e176d0976.internal.nebulab.app:8080";
 
     @GetMapping("/")
     public ResponseEntity<String> health() {
