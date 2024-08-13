@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * test
+ * test1
  * @author yubin
  * @date 2024/4/28
  */
