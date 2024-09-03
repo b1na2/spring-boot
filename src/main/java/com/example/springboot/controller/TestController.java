@@ -23,7 +23,7 @@ public class TestController {
         return ResponseEntity.ok().body("This is an empty endpoint with HTTP 200 response");
     }
     @GetMapping("/status")
-    public ResponseEntity<String> health() {
+    public ResponseEntity<String> status() {
         return ResponseEntity.ok().body("This is an empty endpoint with HTTP 200 response");
     }
 
