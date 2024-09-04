@@ -15,7 +15,7 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 public class TestController {
 
-    private static final String INTERNAL_IP = "10.137.166.157:3000";
+    private static final String INTERNAL_IP = "10.137.175.218:3000";
     private static final String DOMAIN_NAME = "network-53-0:3000";
 
     @GetMapping("/")
