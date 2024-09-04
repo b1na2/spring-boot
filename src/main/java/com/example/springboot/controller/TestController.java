@@ -36,7 +36,7 @@ public class TestController {
             ResponseEntity<String> domainNameResponse = testUrl(DOMAIN_NAME);
 
             StringBuilder responseBuilder = new StringBuilder();
-            responseBuilder.append("Internal IP Test Result: ").append(internalIpResponse.getBody()).append("\n");
+            // responseBuilder.append("Internal IP Test Result: ").append(internalIpResponse.getBody()).append("\n");
             responseBuilder.append("Domain Name Test Result: ").append(domainNameResponse.getBody());
 
             return ResponseEntity.ok().body(responseBuilder.toString());
