@@ -20,7 +20,7 @@ public class TestController {
 
     @GetMapping("/")
     public ResponseEntity<String> health() {
-        return ResponseEntity.ok().body("This is an empty endpoint with HTTP 200 response");
+        return ResponseEntity.ok().body("This domains not ready, Please wait a moment");
     }
     @GetMapping("/status")
     public ResponseEntity<String> status() {
